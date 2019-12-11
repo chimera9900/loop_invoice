@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9QNaQAo6Eeq0xeNkTWIKoA" name="normalize" dataPackage="_9QNaQQo6Eeq0xeNkTWIKoA" Server="Localhost 127.0.0.1" FilePath="/home/jen/Downloads/talend stuff/normalize.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9QNaQQo6Eeq0xeNkTWIKoA" name="default" dataManager="_9QNaQAo6Eeq0xeNkTWIKoA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9QNaQgo6Eeq0xeNkTWIKoA" id="_uoaqcAo6Eeq0xeNkTWIKoA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9QNaQwo6Eeq0xeNkTWIKoA" label="empno" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9QNaRAo6Eeq0xeNkTWIKoA" label="empname" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9QNaRQo6Eeq0xeNkTWIKoA" label="sal" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

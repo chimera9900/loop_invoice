@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_jyKawBseEeqWCPwV2OCNrA" name="receipt_no" dataPackage="_jyKawRseEeqWCPwV2OCNrA" Server="Localhost 127.0.0.1" FilePath="/home/jen/Desktop/invoice/receipt_resp.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jyKawRseEeqWCPwV2OCNrA" name="default" dataManager="_jyKawBseEeqWCPwV2OCNrA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jyLB0BseEeqWCPwV2OCNrA" id="_bqvnsBseEeqWCPwV2OCNrA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jyLB0RseEeqWCPwV2OCNrA" label="receipt_resp" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

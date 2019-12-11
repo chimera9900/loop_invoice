@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_cOvJQA2vEeq6eozRYO93mw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_cOvJQQ2vEeq6eozRYO93mw" comment="" name="count" prompt="count?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_V15swA5QEeq4Vo15VJIlTA" comment="" name="seqid" prompt="seqid?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_64GzUA6AEeqANox1vwvnvw" comment="" name="total" prompt="total?" promptNeeded="false" type="id_Double" value=""/>
+  <contextParameter xmi:id="_cNZLIBsFEeqWCPwV2OCNrA" comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cNZLIRsFEeqWCPwV2OCNrA" comment="" name="receipt_no" prompt="receipt_no?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_cNZLIhsFEeqWCPwV2OCNrA" comment="" name="date_donation" prompt="date_donation?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cNZLIxsFEeqWCPwV2OCNrA" comment="" name="temp_receipt" prompt="temp_receipt?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cNZLJBsFEeqWCPwV2OCNrA" comment="" name="amount_donate" prompt="amount_donate?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_dhO7sBuAEeqLSd7xlA91qQ" comment="" name="total_donation" prompt="total_donation?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_dhO7sRuAEeqLSd7xlA91qQ" comment="" name="authorized_signature" prompt="authorized_signature?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_k5npEBuBEeqLSd7xlA91qQ" comment="" name="row" prompt="row?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_ZA-oUBubEeqLHdOEIvapFA" comment="" name="amount" prompt="amount?" promptNeeded="false" type="id_Float" value=""/>
+  <contextParameter xmi:id="_cQOWEBucEeqLHdOEIvapFA" comment="" name="signature" prompt="signature?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

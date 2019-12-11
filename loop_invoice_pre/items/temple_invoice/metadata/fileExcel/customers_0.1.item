@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_eBcwQBrlEeqWCPwV2OCNrA" name="customers" dataPackage="_eBcwQRrlEeqWCPwV2OCNrA" Server="Localhost 127.0.0.1" FilePath="/home/jen/Desktop/invoice/raw_data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="data" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="address:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_eBcwQRrlEeqWCPwV2OCNrA" name="default" dataManager="_eBcwQBrlEeqWCPwV2OCNrA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eBcwQhrlEeqWCPwV2OCNrA" id="_PLg2wBrlEeqWCPwV2OCNrA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eBcwQxrlEeqWCPwV2OCNrA" label="index" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eBcwRBrlEeqWCPwV2OCNrA" label="Customer" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eBcwRRrlEeqWCPwV2OCNrA" label="Bill_to" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eBcwRhrlEeqWCPwV2OCNrA" label="Contact" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eBcwRxrlEeqWCPwV2OCNrA" label="Phone" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eBcwSBrlEeqWCPwV2OCNrA" label="Fax" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
